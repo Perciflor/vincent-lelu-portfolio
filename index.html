@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <title>Portfolio LE LU Vincent</title>
+  </head>
+    <body>
+
+
+      <!-- Navbar -->
+      <!-- navbar expand lg = responsive à partide lg, = 992px -->
+      <!-- Navbar light donne la couleur grise à l'icone hamburger -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+              <ul class="navbar-nav w-100 d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#accueil">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#about">À Propos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+    </nav>
+
+            <!-- Accueil -->
+
+      <div class="text-white bg-dark text-center d-flex flex-column align-items-center w-auto h-auto p-3 m-auto" id="accueil">
+        <div class="txtAccueil mt-auto p-5">
+          <img src="ressources/profil.png" class="imgProfileAcc" alt="profile">
+          <h1>Salut, moi c'est Vincent.</h1>
+          <p class="lead">Je suis actuellement en recherche d'emploi ou de formation dans le domaine du développement web.</p>
+          <p class="lead p-2">
+            <a href="#about" class="btn btn-lg btn-secondary">En savoir plus</a>
+          </p>
+          <p class="lead">
+            <a target="_blank" href="ressources/CV - Vincent LE LU.pdf" class="btn btn-lg btn-secondary">Curriculum Vitae</a>
+          </p>     
+        </div>
+        <footer class="txtAccueilBot mt-auto">
+            <div class="inner">
+                <p>‎<i>"Choisissez un travail que vous aimez et vous n'aurez pas à travailler un seul jour de votre vie" - Confucius</i></p>
+            </div>
+        </footer>
+      </div>
+
+      <!-- Portfolio : codage -->
+
+      <div class="py-5" id="portfolio">
+          <h2 class="text-center mb-5 text-uppercase"><u><b>Réalisations en codage</u></b></h2>
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="card-img-top" src="ressources/PizzaMama.PNG" alt="Card image">
+                      <div class="card-body">
+                        <h4>Site web pour un restaurant</h4>
+                        <p class="card-text">
+                          <i class="fa fa-align-justify" aria-hidden="true">
+                          
+                            J'ai réalisé ce projet web pour une formation Udemy de Johnathan ROUX.<br><br>
+
+                            L'objectif permettre à ce restaurant de gagner en visibilité et de proposer son menu de pizza aux utilisateurs. Avec la possibilité de modifier facilement son menu en ligne grâce à une interface d'administration sur-mesure que j'ai réalisé.<br><br>
+                          
+                            Ce projet est simple mais fonctionel. <b> J"ai créé un serveur web, qui a sa base de données (SQL) et son interface d'administration.Technologies utilisées : HTML, CSS, DJANGO, PYTHON, HEROKU.</b>
+
+                          </i>
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a class="text-dark ml-2" target="_blank" href="https://lespizzasmaisons.herokuapp.com/">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">
+                                    Voir le site web &raquo;
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="card-img-top" src="ressources/Dashboard capture 1.PNG" alt="Card image">
+                      <div class="card-body">
+                        <h4>Dashsboard en cours ..</h4>
+                        <p class="card-text">
+                          <i class="fa fa-align-justify" aria-hidden="true">
+                          
+                            Le codage d'un dashboard sous Python, qui selon la ville choisie (parmi toutes les villes de France) mettra à jour la présentation des données démographique, santé et social, catégories socio-professionnelles et bien d'autres...<br><br>
+
+                            - Collecter les données sur des sites web via <b>BeautifulSoup et Selenium.</b><br><br>
+                            
+                            - Le datacleaning ou la préparation des données via <b>Pandas et Numpy.</b><br><br>
+                            
+                            - Générer des cartes et le positionnement de la ville via <b>Folium.</b><br><br>
+                            
+                            - Générer des graphes, camemberts, histogrammes via <b>DASH et PLOTLY.</b><br><br>
+
+                          </i>
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a class="text-dark ml-2" target="_blank" href="https://github.com/Perciflor/Dashboard-Data-France">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">
+                                    Code &raquo;
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="card-img-top" src="ressources/Adobe XD.jpg" alt="Card image">
+                      <div class="card-body">
+                        <h4>Application mobile en cours ..</h4>
+                        <p class="card-text">
+                          <i class="fa fa-align-justify" aria-hidden="true">
+                          
+                            Création d'un projet d'application mobile. Tout au long de celui-ci, j'utilise les meilleures fonctionnalités d'Adobe XD comme :<br><br>
+
+                            - La grille de répétition,<br>
+
+                            - Les actifs (couleurs, polices de caractères, symboles),<br>
+
+                            - Les plugins,<br>
+
+                            - Les éléments fixés,<br>
+
+                            - Les overlays (incrustation),<br>
+
+                            - Le prototyping,<br>
+
+                            - Les animations automatiques,<br>
+
+                            - Créer des modals,<br>
+
+                            - Partager mon design (pour que n'importe qui puisse le tester sans avoir Adobe XD d'installé),<br>
+
+                            - Exporter mon design,<br>
+
+                            - Enregistrer une vidéo de mon design,<br>
+
+                            ...
+                          </i>
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a class="text-dark ml-2" href="#">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+
+      <!-- Portfolio : urbanisme commercial -->
+
+      <div class="py-5" id="portfolio">
+        <h2 class="text-center mb-5 text-uppercase"><u><b>Réalisations aménagement et urbanisme commercial</u></b></h2>
+            <div class="container">
+              <div class="row">
+
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="ressources/GPGE.png" alt="Card image">
+                    <div class="card-body">
+                      <h4>Cartographie pour Grand Paris Grand Est</h4>
+                      <p class="card-text">
+                        <i class="fa fa-align-justify" aria-hidden="true">
+                        
+                        5 enjeux thématiques : territoriale/stratégique, sociale/sociétale, patrimoniale/environnementale, économique/financier et opérationnel.<br><br>
+
+                        Sur la base d’un travail de concertation avec la Maîtrise d’Ouvrage, j'ai réalisé des cartographies spécifiques permettant d’illustrer par type d’utilisateurs :<br><br>
+
+                        - Isochrones et géolocalisation des institutionnels,<br>
+
+                        - Les aires d’attractivités des équipements existants et les  superpositions éventuelles selon les limites administratives ou élargis,<br> 
+                        
+                        - La qualité de l’offre et état du patrimoine les éventuels projets en cours sur le bassin de vie,<br>
+
+                        - Les zones carencées, insuffisamment pourvue ou répondant parfaitement aux besoins actuels et futurs.<br>
+                        </i>
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a class="text-dark ml-2" href="ressources/CARTES QGIS.pdf" target="_blank">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                  Voir les cartes &raquo;
+                            </button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="ressources/Urbanisme commercial.jpg" alt="Card image">
+                    <div class="card-body">
+                      <h4>60 dossiers d'urbanisme commercial et sportifs en 4 ans</h4>
+                      <p class="card-text">
+                        <i class="fa fa-align-justify" aria-hidden="true">
+                        Chargé d'études consultant Géomarketing ayant les principales missions de :<br><br>
+                        
+                        - <b>Réaliser des études de marché</b> portant sur des implantations/restructurations commerciales, dans le domaine de la Grande Distribution,<br>
+                        
+                        - <b>Réaliser des études d'impact d'urbanisme commercial</b> présentées en Commission Départementale d'Aménagement Commercial (CDAC),<br>
+                        
+                        - Effectuer des relevés sur site,<br>
+                        
+                        - <b>Rechercher et trouver des données statistiques pertinentes,</b><br>
+                        
+                        - <b>Réaliser des cartographies personnalisées,</b><br>
+                        
+                        - Rédiger l'information produite (présentation, études, synthèses, rapports, bulletins, ...),<br>
+
+                        - Établir des prévisions, des évaluations, des recommandations, des perspectives,<br>
+
+                        - Mises à jour de bases de données,<br>
+                        
+                        - Réaliser des enquêtes (terrain et internet).<br>
+                        </i>
+                      </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a class="text-dark ml-2" href="ressources/Exemles de réalisations professionnelles.pdf" target="_blank">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">
+                                  Voir des exemples de projets &raquo;
+                            </button>
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+
+        <!-- Mes Services -->
+
+        <h2 class="text-center my-5 text-uppercase" id="services"><u><b>MES SERVICES</u></b></h2>
+          <div class="container">
+                  <!-- Three columns of text below the carousel -->
+                  <div class="row d-flex justify-content-center">
+
+                        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                          <img class="" src="ressources/QGIS.png" target="_blank" alt="framework logo" width="#" height="120">
+                          <h2 class="text-center">QGIS - Cartographie</h2>
+                          <p>
+                            QGIS est un logiciel SIG (système d'information géographique) libre multiplate-forme publié sous licence GPL.<b> Je l'utilise depuis 2012.</b>
+                          </p>
+                          <p>
+                            <a class="btn btn-secondary mb-2" href="ressources/CARTES QGIS.pdf" role="button">Voir mes projets &raquo;</a>
+                          </p>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                          <img class="" src="ressources/Excel-logo.png" alt="framework logo" width="#" height="140">
+                          <h2 class="text-center">Excel</h2>
+                          <p>
+                            Microsoft Excel est un logiciel tableur de la suite bureautique Microsoft Office développé et distribué par l'éditeur Microsoft.<b> Je l'utilise depuis 2012.</b>
+                          </p>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                          <img class="" src="ressources/600px-Python-logo-notext.svg.png" alt="framework logo" width="#" height="140">
+                          <h2 class="text-center">Python</h2>
+                          <p>
+                            Python est un langage de programmation interprété, multi-paradigme et multiplateformes.<b> Je l'utilise depuis 2021.</b>
+                          </p>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                          <img class="" src="ressources/logo photoshop.png" alt="framework logo" width="#" height="140">
+                          <h2 class="text-center">Photoshop</h2>
+                          <p>
+                            Adobe Photoshop est une application logicielle de retouche d'image et de retouche photo, il offre aux utilisateurs la possibilité de créer, d'améliorer ou de modifier des images, des photos ou des illustrations, changer d’arrière-plan, simuler une peinture réelle ou créer une vue alternative.<b> Je l'utilise depuis 2016.</b>
+                          </p>
+                          <p>
+                          </p>
+                        </div>
+                    </div>
+          </div>
+        </h2>
+
+      <!-- Section à propos -->
+
+      <section class="bg-dark text-white mb-0" id="about">
+        <div class="container py-5">
+
+          <!-- Section Heading -->
+
+          <h2 class="text-center text-uppercase text-white pb-3">À Propos</h2>
+
+          <!-- Section Content -->
+
+          <div class="row">
+            <div class="col-lg-4 ml-auto">
+              <p class="lead">
+                
+                Après une expérience de près de <b>4 ans dans la conduite d'études dans le secteur de l’urbanisme commercial.</b><br><br>
+
+                J’ai souhaité donné du sens à mon projet personnel en contribuant <b>au développement de programmes à caractère d’intérêt général dans le domaine du sport.</b>
+
+                </p>
+            </div>
+            <div class="col-lg-4 mr-auto">
+              <p class="lead">
+                
+                Mon projet aujourd'hui est de devenir <b>Développeur Web et Mobile par le biais de formations.</b><br><br>
+
+                J'ai des appétences pour <b>l’aménagement, l’urbanisme, la cartographie et le développement web.</b><br><br>
+
+                Si vous êtes intéressé.e.s :
+
+              </p>
+            </div>
+          </div>
+
+          <!-- About Section Button -->
+
+          <div class="text-center mt-4">
+            <a class="btn btn-xl btn-outline-light" href="mailto:vincent-lelu@hotmail.fr?subject=Contact%20depuis%20Portfolio" target="blank">
+              Contactez-moi par mail
+            </a>
+            <a class="btn btn-xl btn-outline-light" href="tel:+33633487664" target="blank">
+              Contactez-moi par téléphone
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-dark text-white">
+          <p class="text-center m-0">
+            @Tout Droits Réservés - LE LU Vincent
+          </p>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="app.js"></script>
+    </body>
+</html>
